@@ -1,3 +1,4 @@
+Configurando e instalando dependencias
 ### expo init nome_app
 
 #### npm install @react-navigation/native
@@ -7,4 +8,5 @@
 ### npm start
 
 ### npm upgrade
+
 ### npm i
