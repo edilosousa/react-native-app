@@ -9,6 +9,7 @@ import Sobre from './src/pages/Sobre';
 import Perfil from './src/pages/Perfil';
 import Login from './src/pages/Login';
 import Login_ from './src/pages/Login_';
+import Swipe from './src/pages/Swipe';
 
 const Stack = createStackNavigator();
 const Tab = createBottomTabNavigator();
@@ -48,7 +49,7 @@ function Tabs(){
 export default function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Login_">
+      <Stack.Navigator initialRouteName="Swipe">
         <Stack.Screen 
           name="Home" 
           component={Tabs} 
@@ -64,6 +65,7 @@ export default function App() {
         <Stack.Screen name="Perfil" component={Perfil} />
         <Stack.Screen name="Login" component={Login} />
         <Stack.Screen name="Login_" component={Login_} />
+        <Stack.Screen name="Swipe" component={Swipe} />
       </Stack.Navigator>
     </NavigationContainer>
   );
